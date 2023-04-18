@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+body{
+    background-image: url(./back\ 2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.here{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+/* Codes For the Navigation Bar*/
+
+nav{
+    display: flex;
+    width: 100%;
+    padding: 09px 0px;
+    justify-content: space-between;
+    background-color:#6E6E6E;
+    
+}
+.logo{
+    width: 100px;
+    padding-left: 50px;
+	
+}
+.logo img{
+    width: max-content;
+    
+	
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    margin-top: 90px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.details{
+    margin-left: 950px;
+    margin-top: 10%;
+    
+}
+
+/*.details h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    /*background-color: #000000d5;
+    width: 330px;
+    border-radius: 20px;
+	right:250px;*/
+
+
+span{
+    color:burlywoodwhite;
+}
+
+.details p{
+    color: white;
+    line-height: 32px;
+    padding: 50px;
+
+}
+
+.details a{
+    background: #212121;
+    padding: 15px  20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+    margin-left: 70px;
+
+
+}
+
+.banner{
+    width: 90px;
+    height: 80%;
+    position: absolute;
+    bottom: 200px;
+    left: 250px;
+    
+}
+
+.banner img{
+    height: 65%;
+    position: absolute;
+    left: 50%;
+	margin-bottom:-60px;
+    bottom: 0;
+	border-radius:10px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    width: 600%;
+	
+}
+
+
+
+
+/* CSS CODES FOR THE FOOTER SECTION */
+
+.footer{
+    display: flex;
+    width: 100%;
+    padding: 09px 0px;
+    justify-content: space-around;
+    background-color: rgb(220, 255, 247);
+    margin-top: 100px;
+    
+    
+}
+.footer .First-born-links ul li{
+    display: block;
+    list-style: none;
+    margin: 10px 10px;
+   
+}
+
+.footer .First-born-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer .Third-born-links ul li{
+    display: block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+.footer .Third-born-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px 20px;
+    margin-top: 40px;
+    justify-content: space-around;
+
+}
+
+/* About Us Codes */
+
+.aboutUs {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px ;
+    justify-content: space-between;
+}
+.aboutUs .first-baby{
+    margin-block-start: 10px;
+    margin-right: 30px;
+}
+
+ .aboutUs .first-baby p {
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:large;
+  color: #eff4fd;
+  background-color: #7DA2A9;
+  border-radius: 15px;
+  padding: 10px;
+
+}
+.aboutUs .second-baby img {
+    padding-top: 55px;
+    padding-left: 65px;
+}
+
+/**Contact us codes
+.Contact-us{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-form{
+    border: 2px solid #eee;
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+}
+
+
+label{
+    font-size: 20px;
+    align-items: start;
+}
+**/
+
+/*cool font*/
+.wum {
+  color: #fff;
+  font-family: Open Sans Condensed, sans-serif;
+  text-align: center;
+  background-image: url(/images/typesource/beach.jpg);
+ /* background-color: #cbc5b6;*/
+ background-color: #000000d9;
+  background-size: cover;
+  line-height: 3em;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  /*new*/
+  margin-left:-100px;
+  border-radius:20px;
+  
+  }
+
+.wum-r1 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  margin-left:-70px;
+}
+
+.wum-small {
+  font-family: Pacifico;
+  font-weight: 400;
+  font-size: 0.37em;
+  line-height: 1.35em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -0.44em;
+  padding-right: 0.2em;
+  border: 0.3em solid #f1cf63;
+  border-right: 0;
+  border-left: 0;
+  text-transform: lowercase;
+}
+/*animation dots*/
+.spinner {
+  margin: 2px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+/*================================================================================================================
+                                            about us
+=================================================================================================================*/
+
+.aboutUs{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff94;
+}
+
+.second-baby{
+  width: 100%;
+}
+.heading h1{
+justify-content: center;
+font-size: 50px;
+font-family: 'Allerta Stencil';
+}
+/*about us */
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+  padding-bottom: 130px;
+  display: flex;
+  background-color: #00000098;
+  
+}
+.span{
+  text-decoration: underline;
+}
+.contact .info {
+  padding: 40px;
+  background: #fff;
+  width: 45%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #dd1414;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
+
+.contact .info .email p {
+  padding-top: 5px;
+}
+
+.contact .info .social-links {
+  padding-left: 60px;
+}
+
+.contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #f71919;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #149ddd;
+  color: #fff;
+}
+.myForm{
+  background-color: white;
+}
+.col-lg-5 {
+  display: flex;
+  padding-left: 200px;
+  justify-content: space-around;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact .php-email-form label {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 24px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #37b3ed;
+}
+
+  /*-------------------------------------------------------------------------------------------------
+                                     events                   
+  ---------------------------------------------------------------------------------------------------*/
+  .events{
+    width: 98%;
+    background-color: #ffffff70;
+    padding: 2px;
+    height: 600px;
+    text-align: center;
+    border-radius: 30px;   
+}
+#myImage {
+  width: 50%;
+}
+.Main{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    width: 98%;
+}
+
+.Classbtn1{
+    background-color: rgba(244, 165, 96, 0.507);
+}
+
+.Classbtn2{
+    background-color: cyan;
+}
+
+
+.heading{
+
+    text-align: center;
+    padding: 13px;
+}

@@ -1,0 +1,44 @@
+*{
+padding: 0;
+margin: 0;
+}
+.events{
+    width: 98%;
+    background-color: bisque;
+    padding: 4px;
+    height: 600px;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+.Main{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    width: 98%;
+}
+
+.Classbtn1{
+    background-color: rgba(244, 165, 96, 0.507);
+}
+
+.Classbtn2{
+    background-color: cyan;
+}
+
+input{
+    padding: 15px;
+    background-color: steelblue;
+    color: white;
+    box-shadow: 34px;
+    padding-left: 225px;
+    padding-right: 225px;
+
+}
+.heading{
+
+    text-align: center;
+    padding: 13px;
+}
